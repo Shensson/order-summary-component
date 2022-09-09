@@ -88,6 +88,10 @@ body{
     color: hsl(245, 75%, 52%);
     padding-right: 20px;
 }
+.change-option:hover{
+    cursor: pointer;
+    text-decoration: solid;
+}
 
 .pay-button{
     background-color:hsl(245, 75%, 52%);
@@ -99,8 +103,18 @@ body{
     border-radius: 10px;
     box-shadow: 0px 20px 8px hsl(225, 100%, 94%);
 }
+
+.pay-button:hover{
+    cursor: pointer;
+    background-color: hsl(245, 68%, 57%);
+}
+
 .cancel-button{
     margin-top: 5px;
     margin-bottom: 30px;
     color: hsl(224, 23%, 55%);
+}
+.cancel-button:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
 }
