@@ -1,0 +1,106 @@
+main{
+    max-width: 375px;
+}
+body{
+    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    width: 350px;
+    border-radius: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.card img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.headline-text{
+    text-align: center;
+}
+
+.headline-text h1{
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.headline-text p{
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: hsl(224, 23%, 55%);
+}
+.container{
+    background: hsl(225, 100%, 98%);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.container img{
+    height: 50px;
+    padding: 10px;
+    padding-right: 20px;
+}
+.music-plan{
+    width: fit-content;
+    padding-right: 50px;
+}
+
+.container h1{
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: hsl(223, 47%, 23%);
+}
+.container p{
+    margin-top: -5px;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+.change-option{
+    font-size: 14px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    padding-right: 20px;
+}
+
+.pay-button{
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    width: 260px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 20px 8px hsl(225, 100%, 94%);
+}
+.cancel-button{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+}
